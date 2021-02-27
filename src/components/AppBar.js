@@ -27,4 +27,4 @@ export default function AppBarCovid19() {
       </Toolbar>
     </AppBar>
   );
-}
+} 

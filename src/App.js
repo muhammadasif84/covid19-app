@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import NavTabs from './components/InfoPanel';
+import AppBarCovid19 from './components/AppBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div>
+      <AppBarCovid19 />
+      <NavTabs />
+      <h6 className="h6">
+        <a href="http://www.piaic.org">
+          Student@PIAIC.ORG
         </a>
-      </header>
+      </h6>
     </div>
   );
 }
